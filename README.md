@@ -69,18 +69,7 @@ root/
 
 For detailed instructions on how to run this project locally or deploy it to the cloud (Render/Vercel), please refer to [deployment.md](./deployment.md).
 
-## 📋 Submission Checklist
-
-- ✅ **Public GitHub Repository:** [https://github.com/Mr-Akhil12/Mood-Architect](https://github.com/Mr-Akhil12/Mood-Architect)
-- ✅ **Live Application URL:** [https://mood-architect-v1.vercel.app/](https://mood-architect-v1.vercel.app/)
-- ✅ **Backend API URL:** [https://mood-architect-ru6c.onrender.com](https://mood-architect-ru6c.onrender.com)
-- ✅ **Environment Configuration Screenshot:** Render dashboard showing `GEMINI_API_KEY` (value blurred)
-- ✅ **Future Improvements:**
-  - **Rate Limiting:** Implement user-based rate limiting to prevent API abuse and manage Gemini quota more effectively.
-  - **Affirmation History:** Add authentication and a database (PostgreSQL) to save user affirmations and track emotional trends over time.
-  - **Advanced Animations:** Implement more sophisticated GSAP-based animations for page transitions and text reveals.
-  - **Multi-language Support:** Use i18n to provide affirmations in multiple languages for broader accessibility.
-  - **Testing Suite:** Add comprehensive unit tests (Pytest for backend, Vitest for frontend) and E2E tests (Playwright).
+For submission details and project evaluation, see [SUBMISSION.md](./SUBMISSION.md).
 
 ---
 *Built by Akhil Pillay, 2026*
