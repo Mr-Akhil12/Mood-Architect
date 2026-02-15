@@ -14,11 +14,11 @@
 ### ✅ Environment Variable Configuration Screenshots
 
 #### Vercel Environment Variables (Frontend)
-![Vercel Environment Variables](./assets/vercel-env-screenshot.png)
+![Vercel Environment Variables](./VercelEnv.png)
 *Shows `VITE_API_URL` configured to point to the Render backend endpoint*
 
 #### Render Environment Variables (Backend)
-![Render Environment Variables](./assets/render-env-screenshot.png)
+![Render Environment Variables](./RenderEnv.png)
 *Shows `GEMINI_API_KEY` configured securely (value blurred for security)*
 
 ---
