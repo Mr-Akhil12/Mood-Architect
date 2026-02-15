@@ -4,7 +4,13 @@
 
 Live Mood Architect is a full-stack application designed to provide personalized, warm, and supportive affirmations based on a user's name and current emotional state. The interface features a stunning glassmorphism design with fluid animations and a fully functional dark mode.
 
-## 🏗 Architecture
+## � Live Application
+
+- **Frontend URL:** [https://mood-architect-v1.vercel.app/](https://mood-architect-v1.vercel.app/)
+- **Backend API:** [https://mood-architect-ru6c.onrender.com](https://mood-architect-ru6c.onrender.com)
+- **GitHub Repository:** [https://github.com/Mr-Akhil12/Mood-Architect](https://github.com/Mr-Akhil12/Mood-Architect)
+
+## �🏗 Architecture
 
 The application follows a decoupled client-server architecture:
 
@@ -62,6 +68,19 @@ root/
 ## 🛠 Deployment & Setup
 
 For detailed instructions on how to run this project locally or deploy it to the cloud (Render/Vercel), please refer to [deployment.md](./deployment.md).
+
+## 📋 Submission Checklist
+
+- ✅ **Public GitHub Repository:** [https://github.com/Mr-Akhil12/Mood-Architect](https://github.com/Mr-Akhil12/Mood-Architect)
+- ✅ **Live Application URL:** [https://mood-architect-v1.vercel.app/](https://mood-architect-v1.vercel.app/)
+- ✅ **Backend API URL:** [https://mood-architect-ru6c.onrender.com](https://mood-architect-ru6c.onrender.com)
+- ✅ **Environment Configuration Screenshot:** Render dashboard showing `GEMINI_API_KEY` (value blurred)
+- ✅ **Future Improvements:**
+  - **Rate Limiting:** Implement user-based rate limiting to prevent API abuse and manage Gemini quota more effectively.
+  - **Affirmation History:** Add authentication and a database (PostgreSQL) to save user affirmations and track emotional trends over time.
+  - **Advanced Animations:** Implement more sophisticated GSAP-based animations for page transitions and text reveals.
+  - **Multi-language Support:** Use i18n to provide affirmations in multiple languages for broader accessibility.
+  - **Testing Suite:** Add comprehensive unit tests (Pytest for backend, Vitest for frontend) and E2E tests (Playwright).
 
 ---
 *Built by Akhil Pillay, 2026*
